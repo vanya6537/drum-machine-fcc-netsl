@@ -1,0 +1,52 @@
+$padWidth: 100px;
+$padHeight: 80px;
+$dispHeight: 100px;
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+$font: 'Krona One', sans-serif;
+#root {
+  font-family: $font;
+  //font-size: 40px;
+  //margin: 40px;
+  //width: 800px;
+  //height: 600px;
+  //text-align: center;
+  align-content: center;
+  //vertical-align: center;
+  //background-color: aliceblue;
+}
+
+#root {
+  position: relative;
+  width: 660px;
+  text-align: center;
+  background-color: darken(white, 5%);
+}
+
+.pad-bank {
+  width: $padWidth * 3 + 30;
+  height: $padHeight * 3 + 30;
+  display: inline-block;
+  margin: 0 20px 20px 20px;
+
+  .drum-pad {
+    position: relative;
+    float: left;
+    width: $padWidth;
+    height: $padHeight;
+    margin: 5px;
+    font-size: 20px;
+    padding-top: $padHeight/2-10;
+    vertical-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+}
+
+#display {
+  //width: 200px;
+  //background-color: gray;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
