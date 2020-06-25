@@ -1,6 +1,6 @@
 ## Check Demo on [Codepen](https://codepen.io/vanya6537/full/oNbweZa)
 
-## Check Demo on [Vercel](https://codepen.io/vanya6537/full/oNbweZa)
+## Check Demo on [Vercel](https://drum-machine-fcc-netsl.vercel.app)
 
 ## Available Scripts
 
